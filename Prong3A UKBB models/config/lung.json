@@ -1,0 +1,13 @@
+{
+  "organ": "lung",
+  "dis1": "J44_Other_chronic_obstructive_pulmonary_disease",
+  "dis2": "Lung",
+  "output_folder": "LUAD_LuCA_moran_top20_v3",
+  "signature": ["SFTPC", "SFTPA1", "SFTPA2", "SFTPD", "LAMP3", "MDK", "BIRC5", "PEBP4", "FABP5", "SFTPB",
+                "CENPF", "TOP2A", "MKI67", "SLPI", "CLDN18", "WIF1", "ABCA3", "LRRK2", "TPX2", "NAPSA"],
+  "known_marker_model": "CEA",
+  "known_marker": ["CEACAM5"],
+  "covariates_numeric": ["age", "body_mass_index_bmi_f21001_0_0"],
+  "covariates_factor": ["sex_f31_0_0", "smoking_status_f20116_0_0", "alcohol_intake_frequency_f1558_0_0"],
+  "summary_model_order": ["Signature", "Covariates", "Signature_Covariates", "CEA", "Random", "Random_Covariates"]
+}

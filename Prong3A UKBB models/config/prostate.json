@@ -1,0 +1,12 @@
+{
+  "organ": "prostate",
+  "dis1": "N40_Hyperplasia_of_prostate",
+  "dis2": "C61_Malignant_neoplasm_of_prostate",
+  "output_folder": "PCA_experiment_final_v3",
+  "signature": ["ACPP", "KLK2", "MSMB", "OLFM4", "KRT19", "RDH11", "PIGR", "KRT15", "AZGP1", "C3", "KLK3"],
+  "known_marker_model": "KLK3",
+  "known_marker": ["KLK3"],
+  "covariates_numeric": ["age", "body_mass_index_bmi_f21001_0_0", "glycated_haemoglobin_hba1c_f30750_0_0"],
+  "covariates_factor": ["sex_f31_0_0", "ethnic_background_f21000_0_0", "diabetes_diagnosed_by_doctor_f2443_0_0"],
+  "summary_model_order": ["Signature", "Covariates", "Signature_Covariates", "Random", "Random_Covariates", "KLK3"]
+}

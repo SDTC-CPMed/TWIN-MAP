@@ -1,0 +1,13 @@
+{
+  "organ": "colorectal",
+  "dis1": "Colon_premalignant",
+  "dis2": "Colorectal_cancer",
+  "output_folder": "CRC_experiment_final_v3",
+  "signature": ["ZG16", "GSN", "MUC2", "GUCA2A", "BEST4", "SLC26A3", "AQP8", "OTOP2", "FCGBP", "ANKRD36C",
+                "MALAT1", "HMGB2", "CA4", "TFF3", "PHGR1", "CA7", "TSPAN1", "FTH1", "CCL5", "H2AFZ"],
+  "known_marker_model": "CEA",
+  "known_marker": ["CEACAM5"],
+  "covariates_numeric": ["age", "body_mass_index_bmi_f21001_0_0"],
+  "covariates_factor": ["sex_f31_0_0", "smoking_status_f20116_0_0", "alcohol_intake_frequency_f1558_0_0", "diabetes_diagnosed_by_doctor_f2443_0_0"],
+  "summary_model_order": ["Signature", "Covariates", "Signature_Covariates", "CEA", "Random", "Random_Covariates"]
+}
