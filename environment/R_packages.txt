@@ -1,0 +1,50 @@
+# R and package versions installed on 10 Nov 2026 (the machine the analyses were run on).
+# Versions at the time of each run may differ slightly; see the sessionInfo files in the results folders where saved.
+R version 4.5.3 (2026-03-11)
+Platform: aarch64-apple-darwin20
+
+AnnotationFilter       1.34.0
+BiocGenerics           0.56.0
+DESeq2                 1.50.2
+EnsDb.Hsapiens.v86     2.99.0
+GenomicRanges          1.62.1
+Matrix                 1.7.6
+RANN                   2.6.3
+Seurat                 5.5.1
+SeuratObject           5.4.0
+SeuratWrappers         0.4.0
+SingleCellExperiment   1.32.0
+data.table             1.18.6.1
+dplyr                  1.2.1
+ensembldb              2.34.0
+factoextra             not installed
+ggplot2                4.0.3
+ggpubr                 1.0.0
+ggrastr                1.0.2
+harmony                2.0.5
+igraph                 2.3.3
+infercnv               1.26.0
+irlba                  2.3.7
+jsonlite               2.0.0
+mgcv                   1.9.4
+monocle3               1.4.27
+patchwork              1.3.2
+purrr                  1.2.2
+ragg                   1.5.2
+randomcoloR            not installed
+readxl                 not installed
+rhdf5                  2.54.1
+scales                 1.4.0
+schard                 1.1.0
+stringr                1.6.0
+tibble                 3.3.1
+tidyr                  1.3.2
+tidyverse              not installed
+uwot                   0.2.5
+
+# UK Biobank post-processing (run locally)
+glmnet                 5.2
+pROC                   1.19.1
+writexl                2.0.1
+ggridges               0.5.7
+RhpcBLASctl            0.23.42

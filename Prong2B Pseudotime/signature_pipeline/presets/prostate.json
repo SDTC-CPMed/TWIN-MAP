@@ -1,0 +1,12 @@
+{
+  "name": "prostate",
+  "cds": null,
+  "out_dir": null,
+  "graph_test": { "neighbor_graph": "principal_graph", "cores": 1, "batch_size": null,
+                  "saved_results": null },
+  "significance": { "q_max": 0.05 },
+  "report": { "morans_I_cutoffs": [0.1, 0.2, 0.3, 0.5] },
+  "signature": { "rule": "morans_I_min", "morans_I_min": 0.5, "exclude_patterns": [], "exclude_genes": [], "platform_genes": null,
+                 "expected": ["ACPP", "KLK3", "KLK2", "MSMB", "OLFM4", "KRT19", "RDH11", "PIGR", "KRT15", "AZGP1", "C3"],
+                 "why": "Trajectory genes with Moran's I > 0.5, as published (11 genes)." }
+}
