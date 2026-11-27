@@ -1,0 +1,13 @@
+{
+  "name": "colorectal",
+  "cds": null,
+  "out_dir": null,
+  "graph_test": { "neighbor_graph": "principal_graph", "cores": 4, "batch_size": null,
+                  "saved_results": null },
+  "significance": { "q_max": 0.05 },
+  "report": { "morans_I_cutoffs": [0.05, 0.1, 0.15, 0.2, 0.25, 0.3] },
+  "signature": { "rule": "top_n", "n": 20, "exclude_patterns": [], "exclude_genes": [], "platform_genes": null,
+                 "expected": ["ZG16", "GSN", "MUC2", "GUCA2A", "BEST4", "SLC26A3", "AQP8", "OTOP2", "FCGBP", "ANKRD36C",
+                              "MALAT1", "HMGB2", "CA4", "TFF3", "PHGR1", "CA7", "TSPAN1", "FTH1", "CCL5", "H2AFZ"],
+                 "why": "Top 20 trajectory genes by Moran's I, as published (carried forward to Prong 3A)." }
+}

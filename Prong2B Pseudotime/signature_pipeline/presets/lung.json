@@ -1,0 +1,13 @@
+{
+  "name": "lung",
+  "cds": null,
+  "out_dir": null,
+  "graph_test": { "neighbor_graph": "principal_graph", "cores": 4, "batch_size": 2000,
+                  "saved_results": null },
+  "significance": { "q_max": 0.05 },
+  "report": { "morans_I_cutoffs": [0.1, 0.2, 0.3, 0.5] },
+  "signature": { "rule": "top_n", "n": 20, "exclude_patterns": [], "exclude_genes": [], "platform_genes": null,
+                 "expected": ["SFTPC", "SFTPA1", "SFTPA2", "SFTPD", "LAMP3", "MDK", "BIRC5", "PEBP4", "FABP5", "SFTPB",
+                              "CENPF", "TOP2A", "MKI67", "SLPI", "CLDN18", "WIF1", "ABCA3", "LRRK2", "TPX2", "NAPSA"],
+                 "why": "Top 20 trajectory genes by Moran's I, the same rule as colorectal; replaced final_v3 on 5 Nov 2026." }
+}

@@ -1,0 +1,29 @@
+{
+  "name": null,
+  "cds": null,
+  "out_dir": null,
+  "graph_test": {
+    "neighbor_graph": null,
+    "cores": null,
+    "batch_size": null,
+    "saved_results": null,
+    "why": null
+  },
+  "significance": {
+    "q_max": null,
+    "why": null
+  },
+  "report": {
+    "morans_I_cutoffs": null
+  },
+  "signature": {
+    "rule": null,
+    "n": null,
+    "morans_I_min": null,
+    "exclude_patterns": null,
+    "exclude_genes": null,
+    "platform_genes": null,
+    "expected": null,
+    "why": null
+  }
+}

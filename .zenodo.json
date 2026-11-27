@@ -1,0 +1,35 @@
+{
+  "title": "TWIN-MAP: analysis code for a global population-to-single-cell framework for early prediction, prevention or treatment of cancer trajectories",
+  "upload_type": "software",
+  "description": "<p>Code accompanying the manuscript <em>TWIN-MAP: a global population-to-single-cell framework for early prediction, prevention or treatment of cancer trajectories</em>.</p><p>Prong 1: identification of cancer trajectories in UK Biobank electronic health records (Match-DT) and comparison with the Danish Disease Trajectory Browser. Prong 2A: pathway similarity between risk diseases and cancers from bulk transcriptomic data. Prong 2B: single-cell pseudotime signatures for prostate, colorectal and lung cancer. Prong 3A: prediction of incident cancer from UK Biobank plasma proteomics. Prong 3B: drug-target enrichment of the signature genes.</p><p>UK Biobank data cannot be redistributed; synthetic stand-in data are provided to run the Prong 3A models.</p>",
+  "creators": [
+    {
+      "name": "Dorairaj, Jonathan",
+      "affiliation": "Karolinska Institutet"
+    },
+    {
+      "name": "Zhao, Yelin",
+      "affiliation": "Karolinska Institutet"
+    },
+    {
+      "name": "Gabdeev, Maksim",
+      "affiliation": "Karolinska Institutet"
+    },
+    {
+      "name": "Benson, Mikael",
+      "affiliation": "Karolinska Institutet"
+    }
+  ],
+  "keywords": [
+    "cancer trajectories",
+    "electronic health records",
+    "single-cell RNA sequencing",
+    "pseudotime",
+    "UK Biobank",
+    "proteomics",
+    "early detection",
+    "digital twin"
+  ],
+  "license": "MIT",
+  "access_right": "open"
+}
